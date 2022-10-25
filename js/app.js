@@ -57,23 +57,23 @@
     
 
     
-    document.addEventListener("scroll",function(){
+//     document.addEventListener("scroll",function(){
        
-        const navbarButtons = document.querySelectorAll(".menu__link")
-        navbarButtons.forEach((navbarButton)=>{
+//         const navbarButtons = document.querySelectorAll(".menu__link")
+//         navbarButtons.forEach((navbarButton)=>{
             
-            const bounding = section.getBoundingClientRect();
+//             const bounding = section.getBoundingClientRect();
          
-            if (bounding.top <= 300 && bounding.bottom >= 300){
+//             if (bounding.top <= 300 && bounding.bottom >= 300){
                
-                navbarButton.classList.add("activated_button");
-            } else{
+//                 navbarButton.classList.add("activated_button");
+//             } else{
                 
                 
-                navbarButton.classList.remove("activated_button");
-            }
-        })
-    });
+//                 navbarButton.classList.remove("activated_button");
+//             }
+//         })
+//     });
     document.addEventListener("scroll",function(){
         // Select all anchor using "menu__link" class
         
