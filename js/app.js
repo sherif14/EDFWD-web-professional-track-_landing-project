@@ -56,26 +56,7 @@
 
     
 
-    // function activeSection (){
-    //     // Select all anchor using "menu__link" class
-    //     const navbarButtons = document.querySelectorAll(".menu__link")
-    //     sections.forEach((section, i)=>{
-    //         //Get the boundingrect for each section 
-    //         const sectionBond = section.getBoundingClientRect();
-    //         //Check if the section is in viewport or not 
-    //         if (sectionBond.top <= 380 && sectionBond.bottom >= 350){
-    //             //section in viewport accourding to top and bottom boundings
-    //             //add 'your-active-class' class to the specific section
-    //             section.classList.add("your-active-class");
-    //             //add 'active_button' class to the specific nav button according to section ID
-    //             navActive[i].classList.add("active_button");
-    //         } else{
-    //             //Remove both section and navButton active classes when section is off sight
-    //             section.classList.remove("your-active-class");
-    //             navActive[i].classList.remove("active_button");
-    //         }
-    //     })
-    // }
+    
     document.addEventListener("scroll",function(){
        
         const navbarButtons = document.querySelectorAll(".menu__link")
