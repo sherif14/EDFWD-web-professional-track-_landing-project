@@ -1,4 +1,4 @@
-# EDFWD-web-professional-track-_landing-project
+# EGFWD-web-professional-track-landing-project
 
 ## About
 
