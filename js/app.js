@@ -33,6 +33,8 @@
      var lii = document.createElement("li");
   //adding the html to the element
      lii.innerHTML=`<a href="#${section.id}" class="menu__link" id="element${++i}">${section.id}</a> `;
+  //adding class to the element
+     lii.classList.add(`sectionn${i}`);
   //adding the element to navbar
      document.getElementById('navbar__list').appendChild(lii);
      scrollToSection(lii, section);
